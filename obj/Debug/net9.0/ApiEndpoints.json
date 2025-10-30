@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.DictionaryController",
+    "Method": "AddField",
+    "RelativePath": "api/Dictionary/{className}/add-field",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "className",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "field",
+        "Type": "WebApplication1.Models.FieldSchema",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.DictionaryController",
+    "Method": "GetDynamicTypesOnly",
+    "RelativePath": "api/Dictionary/dynamic-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.DictionaryController",
+    "Method": "GenerateDictionary",
+    "RelativePath": "api/Dictionary/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "schema",
+        "Type": "WebApplication1.Models.DictionarySchema",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.DictionaryController",
+    "Method": "GetAllTypes",
+    "RelativePath": "api/Dictionary/types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
